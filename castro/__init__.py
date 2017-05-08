@@ -7,7 +7,7 @@ from time import sleep
 from multiprocessing import Process
 import yaml
 
-from . import lib.messageboard as mb
+from .lib import messageboard as mb
 from .lib.pyvnc2swf import vnc2swf
 
 # Get directory for storing files:
